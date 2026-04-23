@@ -1,0 +1,59 @@
+/* GENERAL STYLING */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+/* SOCIAL ICON */
+.social-icon {
+    width: 40px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+/* HOVER EFFECT */
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* MOBILE VIEW */
+@media (max-width: 600px) {
+    .social-icon {
+        width: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 601px) {
+    .social-icon {
+        width: 50px;
+    }
+}
